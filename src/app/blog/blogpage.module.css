@@ -1,0 +1,16 @@
+.content{
+    display: flex;
+    gap: 50px;
+   
+}
+.title{
+    background: coral;
+    text-align: center;
+    padding: 5px 10px;
+    color: #fff;
+}
+@media only screen and (max-width: 768px) {
+    .content{
+        flex-direction: column;
+    }
+  }

@@ -1,0 +1,46 @@
+.container{
+    margin-top: 50px;
+}
+.title{
+    color: var(--softTextColor);
+    margin-bottom: 30px;
+}
+.write{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.input{
+    padding: 15px;
+    width: 100%;
+}
+.button{
+    padding: 16px 20px;
+    background: teal;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.user{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.uerTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userName{
+    font-weight: bold;
+}
+.comments{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

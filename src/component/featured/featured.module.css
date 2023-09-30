@@ -1,0 +1,85 @@
+.container{
+    margin-top: 30px;
+    overflow-x: hidden;
+}
+.title{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.post{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.imageContainer{
+    flex: 1;
+    position: relative;
+    height: 400px;
+}
+.textContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.image{
+    object-fit: cover;
+}
+.postDesc{
+    font-weight: 300;
+    color: var(--softTextColor);
+}
+.button{
+    padding: 16px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    width: max-content;
+}
+   @media only screen and (max-width: 1024px) {
+    .title{
+        font-size: 40px;
+       
+    }
+    .postTitle{
+        font-size: 30px;
+    }
+   }
+   @media only screen and (max-width: 768px) {
+    .post{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .title{
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    .postTitle{
+        font-size: 20px;
+    }
+   }
+   @media only screen and (max-width: 426px) {
+    .title{
+        font-size: 20px;
+        
+    }
+    .postTitle{
+        font-size: 18px;
+    }
+    .postDesc{
+        font-size: 15px;
+    }
+   }
+   @media only screen and (max-width: 321px) {
+    .title{
+        font-size: 18px;
+       
+    }
+    .postTitle{
+        font-size: 15px;
+    }
+    .postDesc{
+        font-size: 12px;
+    }
+   }

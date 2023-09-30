@@ -1,0 +1,26 @@
+.container{
+    flex: 5;
+}
+.title{
+    margin: 50px 0;
+}
+@media only screen and (max-width: 768px) {
+    .title{
+        font-size: 35px;
+    }
+   }
+   
+@media only screen and (max-width: 426px) {
+
+    .title{
+    font-size: 25px;
+    margin: 40px 0;
+    }
+    
+   }
+   @media only screen and (max-width: 321px) {
+    .title{
+        font-size: 20px;
+        margin: 30px 0;
+    }
+   }

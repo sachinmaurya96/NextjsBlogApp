@@ -1,0 +1,86 @@
+.container{
+
+}
+.editor{
+    display: flex;
+    gap: 20px;
+    height: 700px;
+    position: relative;
+    flex-direction: column;
+}
+.textArea{
+    width: 100%;
+    padding: 20px;
+}
+.button,.addButton{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid var(--textColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.addButton{
+    border-color: green;
+}
+.add{
+    display: flex;
+    gap: 1rem;
+    background: var(--bg);
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    left: 50px;
+}
+.input{
+    padding: 30px;
+    font-size: 50px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--textColor);
+}
+.input::placeholder{
+    color: gray;
+}
+.publish{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #1a8917;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .input{
+        padding: 30px;
+        font-size: 40px;
+    }
+  }
+  @media only screen and (max-width: 426px) {
+    .input{
+        padding: 20px;
+        font-size: 30px;
+    }
+    .textArea{
+       font-size: 15px;
+    }
+    .publish{
+        padding: 5px 10px;
+        border-radius: 10px;
+        top: 90px;
+    }
+  }
+  @media only screen and (max-width: 321px) {
+    .input{
+        padding: 15px;
+        font-size: 20px;
+    }
+  }
